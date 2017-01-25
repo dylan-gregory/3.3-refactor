@@ -333,8 +333,22 @@ var accelerate = function(amount) {
   speed += amount;
 };
 
+
 // Put your answer below -------------------------
 
+// First of all, you don't get anything from it because there is no return statement.
+// It gives you NaN because it's trying to run a function that requires a parameter without giving it one
+// I found how to set a default value on MDN
+
+
+var speed = 0;
+
+var accelerate = function(amount) {
+  amount = (typeof amount !== 'undefined') ?  amount : 1;
+  return speed = amount;
+};
+
+// console.log(accelerate(30));
 
 // -----------------------------------------------
 
