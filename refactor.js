@@ -266,6 +266,7 @@ var decreaseScore = function() {
 };
 
 // Put your answer below -------------------------
+
 (function(){
 
 var score = 0;
@@ -298,6 +299,15 @@ var addNumbers = function(numberA, numberB) {
 var twoPlusTwo = addNumbers(2,2);
 
 // Put your answer below -------------------------
+
+var addNumbers = function(numberA, numberB) {
+  return (numberA + numberB);
+};
+
+var twoPlusTwo = addNumbers(2,2);
+
+console.log(twoPlusTwo);
+
 
 
 // -----------------------------------------------
