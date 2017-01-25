@@ -120,7 +120,10 @@ var reverseStr = function(str) {
 
 // Put your answer below -------------------------
 
+var reverseStr = function(str) {
+  return str.split("").reverse().join("");
 
+};
 
 
 
