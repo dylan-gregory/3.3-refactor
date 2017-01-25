@@ -208,22 +208,36 @@ foo = "bar";
 // to specify a number of times to call the given
 // function.
 
+// var callTenTimes = function(callback) {
+//   var range = _.range(10);
+//   _.each(range, callback);
+// };
+
 var callTenTimes = function(callback) {
-  var range = _.range(10);
-  _.each(range, callback);
+	for(var i = 0; i < 10; i++){
+		callback();
+	}
 };
 
 // Put your answer below -------------------------
 
 
+// var callNTimes = function(callback, n) {
+//   var range = _.range(n);
+//   _.each(range, callback);
+// };
+
 var callNTimes = function(callback, n) {
-  var range = _.range(n);
-  _.each(range, callback);
+	for(var i = 0; i < n; i++){
+		callback();
+	}
 };
 
-console.log("Hey!");
+function hey(){
+  console.log("hey!");
+}
 
-callNTimes(console.log("Hey!"), 20);
+callNTimes(hey, 8);
 
 
 // -----------------------------------------------
