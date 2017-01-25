@@ -55,6 +55,14 @@ setTimeout(sayHi, 2000);
 // Put your answer below -------------------------
 
 
+var sayHi = function() {
+  alert("Hello, World!");
+}
+
+setTimeout(sayHi, 2000);
+
+
+
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -83,6 +91,10 @@ letter = "z";
 console.log("The letter is", letter);
 
 // Put your answer below -------------------------
+
+
+
+
 
 
 // -----------------------------------------------
