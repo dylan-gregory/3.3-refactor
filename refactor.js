@@ -92,6 +92,8 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 
+// the answer is [c]: z then y. You define letter and initially assign it "x", but never console log that. Since "y"
+// is told to wait 1 millisecond to log to the console, it immediately logs "z" and logs "y" just shortly after.
 
 
 
@@ -117,6 +119,9 @@ var reverseStr = function(str) {
 };
 
 // Put your answer below -------------------------
+
+
+
 
 
 // -----------------------------------------------
