@@ -191,6 +191,8 @@ var foo = "bar";
 
 // Put your answer below -------------------------
 
+var foo;
+foo = "bar";
 
 // -----------------------------------------------
 
@@ -212,6 +214,16 @@ var callTenTimes = function(callback) {
 };
 
 // Put your answer below -------------------------
+
+
+var callNTimes = function(callback, n) {
+  var range = _.range(n);
+  _.each(range, callback);
+};
+
+console.log("Hey!");
+
+callNTimes(console.log("Hey!"), 20);
 
 
 // -----------------------------------------------
@@ -240,7 +252,19 @@ var decreaseScore = function() {
 };
 
 // Put your answer below -------------------------
+(function(){
 
+var score = 0;
+
+var increaseScore = function() {
+  score++;
+};
+
+var decreaseScore = function() {
+  score--;
+};
+
+}());
 
 // -----------------------------------------------
 
