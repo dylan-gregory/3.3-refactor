@@ -392,13 +392,14 @@ var callLater = function(timeout, callback) {
 
 // Put your answer below -------------------------
 
+
 var callLater = function(timeout, callback) {
   if (timeout == 'undefined') {
       return callLater(callback, 0);
   }else {
     return callLater(timeout, callback);
   }
-  
+
 };
 
 function yo(){
